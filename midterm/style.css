@@ -1,0 +1,65 @@
+#content {
+    margin: 0 auto;
+    max-width: 900px;
+
+}
+
+.content--p {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.mast{
+        width: 200px;
+        margin: 0 auto;
+        height:80px: 
+ 
+        
+}
+
+.heading {
+   
+    color: #660C42;
+    font-family: 'Gelasio', serif;
+    font-size: x-large;
+    border-bottom-style: solid #660c42;
+    font-size: 1000;
+
+}
+
+.byline {
+Font-size: 200; 
+color: black; 
+font-style: italic;
+
+}
+
+#img {
+    margin:0 auto;
+        max-width: 30%;
+        }
+
+.sub {
+    padding: 5%; 
+    font-family: 'Gelasio',serif;
+    color: #660C42;
+    font-size: larger;
+
+}
+
+.blockquote {
+    color: #660C42;
+    border-style: inset;
+    padding: 5%; 
+
+}
+
+.Read {
+color:#660C42;
+Font-size: 600; 
+Font-family: Helvetica, Arial, Sans-serif; 
+margin: 0 auto;
+}
+.story {
+
+margin: 0 auto;
+}
