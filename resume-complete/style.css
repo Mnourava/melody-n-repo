@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 600;
+  }
+
+  #masthead {
+    max-width: 40%;
+
+   
+  }
+  #h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  .grid text-center {
+    align-items: center;
+    list-style: none;}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+    
+ 
