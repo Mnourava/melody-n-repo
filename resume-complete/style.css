@@ -1,28 +1,35 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: sans-serif;
     font-size: 600;
   }
 
-  #masthead {
-    max-width: 40%;
+ .card-img-top{
+max-width: 100%;
 
-   
-  }
-  #h1 {
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-  }
-  .grid text-center {
-    align-items: center;
-    list-style: none;}
-
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
+ }
+.column{
+display: flex;
+justify-content: center space-around;
 }
-
-.h3 {
-    font-family:Arial, Helvetica, sans-serif;
+  .icon-link {
+    display: inline-block;
     margin: 0 auto;
-}
-    
+  
+  }
+ 
+  .h3 {
+    color: #729D92;
+
+  }
+
+  .column {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .li {
+    list-style: none;
+  }
+
  
