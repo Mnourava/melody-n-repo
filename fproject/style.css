@@ -103,18 +103,9 @@ size-adjust: 900px;
 .image {
     max-width: 100%; 
     margin: 0 auto;
-}
-.carousel-item {
-height: 32rem;
-position: relative; 
-color: white;
+    size: large;
 }
 
-.carousel-caption {
-position: absolute; 
-padding-bottom: 50px;
-color: white; 
-}
 
 .right {
     color:#7E87FC;
@@ -125,14 +116,15 @@ color: white;
     position: relative;
 }
 
-.img {
-    max-width: 900px;
-    margin: 0 auto; 
-}
-
 
 @media (max-width: 500px) {body 
     {
     background-color: white;
     }
     }
+
+    @media (min-width: 1000px) 
+
+    media (min-width: @screen-lg-min) { 
+        max-width: 1200px;
+     }
