@@ -1,12 +1,19 @@
 /* Headings */
-
+.brand {
+    font-family: "Young Serif";
+    color: white; 
+    font-size: medium; 
+}
 .h1 { 
-    font-family;: "Young Serif" ;
-    font-weight: 500;
-    color: black; 
+    font-family;: "Young Serif";
+    font-weight: 600;
+    color: Black; 
     font-size: 1.5em;
 } 
-
+.remove {
+    color: #7E87FC;
+    font-family: "Young Serif";
+}
 .h2 {
     font-family: "Young Serif";
     font-weight: 500; 
@@ -14,22 +21,118 @@
     color: black;
 }
 
+.container {
+    max-width: 100%
+}
+
 .h3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: medium;
+    font-weight: 200;
+    font-size: small;
 }
 
 
 .h4 {
 
-    font-family: "Young Serif"; 
+ font-family: "Young Serif";
+ font-size: 1.5em;
+ 
+}
+
+.caps {
+    font-style: italic; 
+    font-size: small;
+    color: black;
+    padding-bottom: 5%;
+    margin: 0 auto;
+}
+
+$bg: #fff;
+
+.quote {
+  display:inline-block;
+  margin:1em;
+  overflow:hidden;
+}
+  blockquote {
+    background-color:$bg;
+    border: solid 2px #7e87fc;
+    display: inline-block;
+    margin: 0;
+    padding: 1em;
+    position: relative;
+    &:before {
+      background-color: $bg;
+      bottom: -10%;
+      content: "";
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: -10%;
+      transform: rotate(-15deg) skew(5deg);
+    }
+    cite {
+      display: block;
+      font-style: italic;
+      text-align: right;
+      &:before {
+        content: "- ";
+      }
+    }
+    > * {
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+.quote-container {
+Font-family: "Young Serif";
+padding: 10 10 0 0; 
+margin: 0 auto;
+size-adjust: 900px; 
+}
+
+.every {
+    color:#7E87FC; 
 
 }
 
-.pie {
+.simply {
+    color:#7E87FC; 
+}
+.image {
+    max-width: 100%; 
+    margin: 0 auto;
+}
+.carousel-item {
+height: 32rem;
+position: relative; 
+color: white;
+}
+
+.carousel-caption {
+position: absolute; 
+padding-bottom: 50px;
+color: white; 
+}
+
+.right {
+    color:#7E87FC;
+}
+
+.footer {
+    background-color: palegoldenrod;
+    position: relative;
+}
+
+.img {
+    max-width: 900px;
     margin: 0 auto; 
-    max-width: 100%;
-    padding-top: 10%;
-    padding-bottom: 10%;
 }
+
+
+@media (max-width: 500px) {body 
+    {
+    background-color: white;
+    }
+    }
